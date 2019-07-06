@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite" parallel="tests" thread-count="2">
+
+	<parameter name="host" value="mobilecloud.perfectomobile.com" />
+	<parameter name="securityToken"
+		value="eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJiYVZyVnJ0V2V3ZVN5dk02cEVObzh2QlJzVzBIeUZOY3V6QzdBMkRBT0M0In0.eyJqdGkiOiI2YTY2OTk5MS05ZmI0LTQyYTYtOTNkYy1kNTgyZmExZjhiODIiLCJleHAiOjAsIm5iZiI6MCwiaWF0IjoxNTUxMDA2MjI5LCJpc3MiOiJodHRwczovL2F1dGgucGVyZmVjdG9tb2JpbGUuY29tL2F1dGgvcmVhbG1zL21vYmlsZWNsb3VkLXBlcmZlY3RvbW9iaWxlLWNvbSIsImF1ZCI6Im9mZmxpbmUtdG9rZW4tZ2VuZXJhdG9yIiwic3ViIjoiNmQ1N2RjMDktMzk1NS00N2U5LWE5OTgtNTBmMzQ0ZDM0MDdhIiwidHlwIjoiT2ZmbGluZSIsImF6cCI6Im9mZmxpbmUtdG9rZW4tZ2VuZXJhdG9yIiwiYXV0aF90aW1lIjowLCJzZXNzaW9uX3N0YXRlIjoiYWRmMDY1OWItZTM0My00ZmY0LWIzZTYtYTlmZTI2YmJiYzdlIiwicmVhbG1fYWNjZXNzIjp7InJvbGVzIjpbIm9mZmxpbmVfYWNjZXNzIiwidW1hX2F1dGhvcml6YXRpb24iXX0sInJlc291cmNlX2FjY2VzcyI6eyJyZXBvcnRpdW0iOnsicm9sZXMiOlsiZXhlY3V0aW9uX2FkbWluIl19LCJhY2NvdW50Ijp7InJvbGVzIjpbIm1hbmFnZS1hY2NvdW50IiwibWFuYWdlLWFjY291bnQtbGlua3MiLCJ2aWV3LXByb2ZpbGUiXX19fQ.ezvBr38aRrrdmDsI9QjT55QbhUkLehB1dteooPzwRVY8BuUUM5SLQTO9YMGs9LkKN_PU36TVnsoclMvuw3yf-FC86VzB4a-Li9m6xwIubkORjS_Ha9617r5Faml9fbc9Oek4KlkrYHn43txPgr8gU7Qqxksyvta6cmumc9H_vh7iqaDpPRmFDsYSltGF_HrFLzj1RSxtiIm7miXBSFJTSbgv6l-b9SYwJ63PWQ9QYE_b_853NUOx63cNiY-B-ntTZKNtCTF_Zm84iXTKFm5yQvW8nSIrDCqftIes6FsGUkz5vvq5qRMUIpZjgnc5Qc5kG99v4jyVnGc9VZ9TEt29Ow" />
+	<parameter name="appName" value="Calculator" />
+	<test name="iOS iPhone-6">
+		<parameter name="deviceModel" value="iPhone-6" />
+		<parameter name="platformName" value="iOS" />
+		<classes>
+			<class name="com.demo.perfecto.Demo" />
+		</classes>
+	</test>
+
+	<test name="Android One M8">
+		<parameter name="deviceModel" value="One M8" />
+		<parameter name="platformName" value="Android" />
+		<classes>
+			<class name="com.demo.perfecto.Demo" />
+		</classes>
+	</test>
+</suite> <!-- Suite -->

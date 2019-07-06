@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="3346" started-at="2019-02-24T16:11:20Z" finished-at="2019-02-24T16:11:23Z">
+    <groups>
+    </groups>
+    <test name="Android One M8" duration-ms="3346" started-at="2019-02-24T16:11:20Z" finished-at="2019-02-24T16:11:23Z">
+      <class name="com.demo.perfecto.Demo">
+        <test-method status="PASS" signature="beforeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.demo.perfecto.Demo@5ce81285]" name="beforeTest" is-config="true" duration-ms="3308" started-at="2019-02-24T16:11:20Z" finished-at="2019-02-24T16:11:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mobilecloud.perfectomobile.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJiYVZyVnJ0V2V3ZVN5dk02cEVObzh2QlJzVzBIeUZOY3V6QzdBMkRBT0M0In0.eyJqdGkiOiI2YTY2OTk5MS05ZmI0LTQyYTYtOTNkYy1kNTgyZmExZjhiODIiLCJleHAiOjAsIm5iZiI6MCwiaWF0IjoxNTUxMDA2MjI5LCJpc3MiOiJodHRwczovL2F1dGgucGVyZmVjdG9tb2JpbGUuY29tL2F1dGgvcmVhbG1zL21vYmlsZWNsb3VkLXBlcmZlY3RvbW9iaWxlLWNvbSIsImF1ZCI6Im9mZmxpbmUtdG9rZW4tZ2VuZXJhdG9yIiwic3ViIjoiNmQ1N2RjMDktMzk1NS00N2U5LWE5OTgtNTBmMzQ0ZDM0MDdhIiwidHlwIjoiT2ZmbGluZSIsImF6cCI6Im9mZmxpbmUtdG9rZW4tZ2VuZXJhdG9yIiwiYXV0aF90aW1lIjowLCJzZXNzaW9uX3N0YXRlIjoiYWRmMDY1OWItZTM0My00ZmY0LWIzZTYtYTlmZTI2YmJiYzdlIiwicmVhbG1fYWNjZXNzIjp7InJvbGVzIjpbIm9mZmxpbmVfYWNjZXNzIiwidW1hX2F1dGhvcml6YXRpb24iXX0sInJlc291cmNlX2FjY2VzcyI6eyJyZXBvcnRpdW0iOnsicm9sZXMiOlsiZXhlY3V0aW9uX2FkbWluIl19LCJhY2NvdW50Ijp7InJvbGVzIjpbIm1hbmFnZS1hY2NvdW50IiwibWFuYWdlLWFjY291bnQtbGlua3MiLCJ2aWV3LXByb2ZpbGUiXX19fQ.ezvBr38aRrrdmDsI9QjT55QbhUkLehB1dteooPzwRVY8BuUUM5SLQTO9YMGs9LkKN_PU36TVnsoclMvuw3yf-FC86VzB4a-Li9m6xwIubkORjS_Ha9617r5Faml9fbc9Oek4KlkrYHn43txPgr8gU7Qqxksyvta6cmumc9H_vh7iqaDpPRmFDsYSltGF_HrFLzj1RSxtiIm7miXBSFJTSbgv6l-b9SYwJ63PWQ9QYE_b_853NUOx63cNiY-B-ntTZKNtCTF_Zm84iXTKFm5yQvW8nSIrDCqftIes6FsGUkz5vvq5qRMUIpZjgnc5Qc5kG99v4jyVnGc9VZ9TEt29Ow]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[One M8]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Android]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Calculator]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="FAIL" signature="runTest()[pri:0, instance:com.demo.perfecto.Demo@5ce81285]" name="runTest" duration-ms="14" started-at="2019-02-24T16:11:23Z" finished-at="2019-02-24T16:11:23Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.demo.perfecto.Demo.returnElement(Demo.java:130)
+at com.demo.perfecto.Demo.performCalculation(Demo.java:107)
+at com.demo.perfecto.Demo.runTest(Demo.java:73)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.util.concurrent.FutureTask.run(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runTest -->
+        <test-method status="FAIL" signature="afterClass()[pri:0, instance:com.demo.perfecto.Demo@5ce81285]" name="afterClass" is-config="true" duration-ms="0" started-at="2019-02-24T16:11:23Z" finished-at="2019-02-24T16:11:23Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.demo.perfecto.Demo.closeApp(Demo.java:124)
+at com.demo.perfecto.Demo.afterClass(Demo.java:79)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:455)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.internal.TestMethodWorker.invokeAfterClassMethods(TestMethodWorker.java:214)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.util.concurrent.FutureTask.run(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.demo.perfecto.Demo -->
+    </test> <!-- Android One M8 -->
+  </suite> <!-- Suite -->
+</testng-results>
